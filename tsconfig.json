@@ -12,9 +12,12 @@
         "baseUrl": "src",
         "paths": {
             "@code/*": [
-                "day4/*"
+                "day1/*"
             ]
-        }
+        },
+        "lib": ["ES2019", "DOM"],
+        "module": "commonjs",
+        "target": "ES2019", 
     },
     "include": [
         "./src/**/*"
